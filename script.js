@@ -5,7 +5,7 @@ document.getElementById('year').textContent = new Date().getFullYear();
 const navToggle = document.getElementById('navToggle');
 const navLinks = document.getElementById('navLinks');
 
-navToggle.addEventListener('click', () => {
+navToggle.addEventListener('click', () => { 
   const isOpen = navLinks.classList.toggle('open');
   navToggle.setAttribute('aria-expanded', isOpen);
   navToggle.setAttribute('aria-label', isOpen ? 'Cerrar menú' : 'Abrir menú');
