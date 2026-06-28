@@ -74,7 +74,7 @@ section{scroll-margin-top:var(--nav-h);}
 .brand{display:flex;align-items:center;gap:12px;}
 .brand-mark{
   width:42px;height:42px;border-radius:50%;object-fit:cover;flex-shrink:0;
-  background:linear-gradient(135deg,var(--magenta),var(--iris));
+  
 }
 .brand-text{display:flex;flex-direction:column;line-height:1.15;color:#fff;font-weight:700;font-size:15px;}
 .brand-text small{color:var(--sun);font-weight:600;font-size:11px;letter-spacing:1.5px;text-transform:uppercase;}
