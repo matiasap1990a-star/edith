@@ -73,6 +73,16 @@ section{scroll-margin-top:var(--nav-h);}
 }
 .brand{display:flex;align-items:center;gap:12px;}
 .brand-mark{
+  .brand-mark {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+  
+  /* Agrega esta línea para un borde sólido rosa */
+  border: 2px solid var(--magenta); 
+}
   width:42px;height:42px;border-radius:50%;object-fit:cover;flex-shrink:0;
   
 }
