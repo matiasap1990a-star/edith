@@ -72,16 +72,15 @@ section{scroll-margin-top:var(--nav-h);}
   display:flex;align-items:center;justify-content:space-between;
 }
 .brand{display:flex;align-items:center;gap:12px;}
-.brand-mark{
-  .brand-mark {
+.brand-mark {
   width: 42px;
   height: 42px;
   border-radius: 50%;
   object-fit: cover;
   flex-shrink: 0;
   
-  /* Agrega esta línea para un borde sólido rosa */
-  border: 2px solid var(--magenta); 
+  /* Sombra sólida de 1px que actúa como un borde más suave */
+  box-shadow: 0 0 0 1px rgba(25, 11, 61, 0.45);
 }
   width:42px;height:42px;border-radius:50%;object-fit:cover;flex-shrink:0;
   
