@@ -78,8 +78,6 @@ section{scroll-margin-top:var(--nav-h);}
   border-radius: 50%;
   object-fit: cover;
   flex-shrink: 0;
-  
-  /* Sombra sólida de 1px que actúa como un borde más suave */
   box-shadow: 0 0 0 1px rgba(25, 11, 61, 0.45);
 }
   width:42px;height:42px;border-radius:50%;object-fit:cover;flex-shrink:0;
